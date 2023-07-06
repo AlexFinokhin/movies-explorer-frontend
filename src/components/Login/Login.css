@@ -1,0 +1,143 @@
+.login {
+  width: 396px;
+  margin: 0 auto 70px auto;
+  padding: 71px 0 0 0;
+}
+
+.login__title {
+  margin: 0;
+  padding: 37px 0 0 0;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+
+.login__form {
+  padding: 40px 0 0 0;
+  display: grid;
+  grid-template-rows: repeat(3, 68px);
+  gap: 20px;
+  width: 100%;
+}
+
+.login__input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__input-label {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.login__input {
+  margin: 10px 0 0 0;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login__input:focus {
+  outline: 2px solid #4285f4;
+}
+
+.login__button-container {
+  padding: 159px 0 0 0;
+  width: 100%;
+}
+
+.login__submit-button {
+  padding: 15px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: #4285f4;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+}
+
+.login__submit-button:hover {
+  color: #2f2f2f;
+}
+
+.login__switch {
+  padding: 153px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.login__switch-text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b;
+  user-select: none;
+}
+
+.login__switch-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4285f4;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.login__switch-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .login {
+    margin: 0;
+    padding: 57px 30px 30px 30px;
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login__title {
+    margin: 0;
+    padding: 47px 0 0 0;
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .login__form {
+    padding: 80px 0 0 0;
+    width: 100%;
+  }
+
+  .login__button-container {
+    margin: 89px 0 0 0;
+    width: 100%;
+  }
+  .login__submit-button {
+    font-size: 12px;
+  }
+
+  .login__switch {
+    padding: 240px 0 0 0;
+  }
+
+  .login__switch-text {
+    font-size: 12px;
+  }
+
+  .login__switch-link {
+    font-size: 12px;
+  }
+}

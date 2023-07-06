@@ -1,0 +1,151 @@
+.about {
+  padding: 110px 0 110px 0;
+}
+
+.about__list {
+  margin: 0;
+  padding: 70px 0 110px 0;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.about__name {
+  margin: 0;
+  padding: 0 0 23px 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.88px;
+  border-bottom: 1px solid #dadada;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+
+.about__text {
+  margin: 0;
+  font-weight: 400;
+  padding-top: 26px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about__container {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(140px, 1fr) 4fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.about__timeline {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #3ddc84;
+  font-weight: 400;
+  text-align: center;
+  color: #000;
+}
+
+.about__timeline-gray {
+  color: #ffffff;
+  background: #303030;
+}
+
+.about__timeline-text {
+  margin: 0;
+  padding: 14px 0 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #8b8b8b;
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .about {
+    padding: 90px 0 90px 0;
+  }
+
+  .about__list {
+    padding: 70px 50px 92px 50px;
+  }
+
+  .about__name {
+    margin: 0 50px 0 50px;
+    padding: 0 0 23px 0;
+  }
+
+  .about__text {
+    padding-top: 25px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .about__container {
+    padding: 0 50px 0 50px;
+  }
+  .about__timeline {
+    padding: 10px 15px 10px 15px;
+  }
+  .about__timeline-text {
+    color: #a0a0a0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding: 70px 0 70px 0;
+  }
+
+  .about__list {
+    padding: 60px 18px 60px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    list-style: none;
+  }
+
+  .about__name {
+    margin: 0 18px 0 18px;
+    padding: 0 0 24px 0;
+    font-size: 18px;
+    letter-spacing: -0.72px;
+  }
+
+  .about__title {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+  }
+
+  .about__text {
+    padding-top: 16px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about__container {
+    padding: 0 18px 0 18px;
+    grid-template-columns: minmax(100px, 1fr) 4fr;
+  }
+
+  .about__timeline {
+    padding: 11px 10px;
+    font-size: 11px;
+  }
+
+  .about__timeline-text {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+    color: #a0a0a0;
+  }
+}
