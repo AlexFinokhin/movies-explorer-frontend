@@ -1,7 +1,7 @@
 # Дипломный проект movies-explorer-frontend
 Репозиторий для приложения проекта `Movies`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями.
 
-Адрес репозитория: https://github.com/AlexFinokhin/react-mesto-api-full-gha
+Адрес репозитория: [https://github.com/AlexFinokhin/react-mesto-api-full-gha](https://github.com/AlexFinokhin/movies-explorer-frontend)
 
 ## Ссылки на мой проект
 
