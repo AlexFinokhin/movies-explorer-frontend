@@ -13,7 +13,7 @@ const App = () => {
   const [currentUser] = useState({
     name: "Ryan Gosling",
     email: "barbidriver007@gmail.com",
-    isLogged: true, /* заменить на false, чтоб разлогиниться */
+    isLogged: false, /* Необходимо заменить на true, чтобы проверить работоспособность залогиненного аккаунта(navigation и burger menu) */
   });
 
   return (
