@@ -1,7 +1,6 @@
 .register {
   width: 396px;
-  margin: 0 auto 70px auto;
-  padding: 71px 0 0 0;
+  margin: 71px auto 70px auto;
 }
 
 .register__title {
@@ -99,10 +98,18 @@
   opacity: 0.8;
 }
 
+@media (max-width: 1279px) {
+  .register {
+    margin: 232px auto 232px auto;
+  }
+
+}
+
+
 @media (max-width: 767px) {
   .register {
-    margin: 0;
-    padding: 57px 30px 30px 30px;
+    padding: 0;
+    margin: 57px 30px 30px 30px;
     width: unset;
     display: flex;
     flex-direction: column;
