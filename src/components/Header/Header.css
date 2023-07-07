@@ -80,6 +80,7 @@
     background: transparent;
     background-image: url("../../images/burger.svg");
     background-size: 44px 44px;
+    background-repeat: no-repeat;
     transition: all 0.4s ease-in-out;
   }
 
@@ -126,6 +127,10 @@
   }
 
   .header__menu-button {
-    background-size: 50px 39px;
+    width: 34px;
+    height: 43px;
+    background-size: 34px 43px;
+    right: 16px;
+    top: 16px;
   }
 }
