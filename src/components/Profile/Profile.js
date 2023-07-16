@@ -24,12 +24,24 @@ const Profile = ({
     useFormValidation();
 
   const [isEditing, setIsEditing] = useState(false);
+  const [isDataChanged, setIsDataChanged] = useState(false);
 
   useEffect(() => {
     if (currentUser) {
       resetForm(currentUser);
     }
   }, [currentUser, resetForm]);
+
+  useEffect(() => {
+    if (
+      currentUser &&
+      (values.name !== currentUser.name || values.email !== currentUser.email)
+    ) {
+      setIsDataChanged(true);
+    } else {
+      setIsDataChanged(false);
+    }
+  }, [currentUser, values]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -124,8 +136,10 @@ const Profile = ({
             {isEditing ? (
               <button
                 type="submit"
-                disabled={isLoading || !isInputValid ? true : false}
-                className="profile__submit"
+                disabled={isLoading || !isInputValid || !isDataChanged}
+                className={`profile__submit ${
+                  !isDataChanged ? "profile__submit_not-changed" : ""
+                }`}
               >
                 Сохранить
               </button>
