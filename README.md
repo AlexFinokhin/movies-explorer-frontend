@@ -1,3 +1,7 @@
+# Ссылка на пул реквест
+
+https://github.com/AlexFinokhin/movies-explorer-frontend/pull/2
+
 # Дипломный проект movies-explorer-frontend
 Репозиторий для приложения проекта `Movies`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями.
 
@@ -16,6 +20,4 @@ Backend https://api.ryangosling.nomoredomains.rocks
 
 https://disk.yandex.ru/d/tkMgssbr2I0DwQ
 
-### Ссылка на пул реквест
 
-https://github.com/AlexFinokhin/movies-explorer-frontend/pull/2
