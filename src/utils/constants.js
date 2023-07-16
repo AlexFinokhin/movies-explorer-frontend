@@ -1,5 +1,5 @@
 export const MOVIE_URL = "https://api.nomoreparties.co";
-export const BASE_URL = "http://localhost:3000";
+export const BASE_URL = "https://api.ryangosling.nomoredomains.rocks";
 
 export const PASSW0RD_PATTERN = "^(?=.*[A-Za-z])(?=.*d)(?=.*[!@#$%^&*]).{8,}$";
 export const EMAIL_PATTERN = "[a-z0-9]+@[a-z]+.[a-z]{2,5}";
