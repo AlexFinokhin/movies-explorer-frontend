@@ -15,3 +15,7 @@ Backend https://api.ryangosling.nomoredomains.rocks
 ### Ссылка на макет Figma
 
 https://disk.yandex.ru/d/tkMgssbr2I0DwQ
+
+### Ссылка на пул реквест
+
+https://github.com/AlexFinokhin/movies-explorer-frontend/pull/2
