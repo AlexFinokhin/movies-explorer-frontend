@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import { CurrentUserContext } from "../../context/CurrentUserContext.js";
 import Main from "../Main/Main.js";
 import NotFound from "../NotFound/NotFound";
@@ -210,10 +210,7 @@ const App = () => {
                 />
               }
             />
-
-            <Route path="*" element={<Navigate to="/notfound" replace />} />
-
-            <Route path="/notfound" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <InfoTooltip
             imageStatus={tooltipImageSrc}
