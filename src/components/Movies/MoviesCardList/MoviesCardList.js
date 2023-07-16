@@ -8,6 +8,12 @@ import { useVisibleCount } from "../../../hooks/useVisibleCount";
 import {
   MOVIES_INCREMENT_3,
   MOVIES_INCREMENT_2,
+  MOVIES_BREAKPOINT_1280,
+  MOVIES_BREAKPOINT_1279,
+  MOVIES_BREAKPOINT_1278,
+  MOVIES_BREAKPOINT_1130,
+  MOVIES_BREAKPOINT_766,
+  MOVIES_BREAKPOINT_0,
 } from "../../../utils/constants";
 
 const MoviesCardList = ({
@@ -27,9 +33,12 @@ const MoviesCardList = ({
     const width = window.innerWidth;
 
     const breakpoints = [
-      { width: 1279, increment: MOVIES_INCREMENT_3 },
-      { width: 768, increment: MOVIES_INCREMENT_2 },
-      { width: 0, increment: MOVIES_INCREMENT_2 },
+      { width: MOVIES_BREAKPOINT_1280, increment: MOVIES_INCREMENT_3 },
+      { width: MOVIES_BREAKPOINT_1279, increment: MOVIES_INCREMENT_3 },
+      { width: MOVIES_BREAKPOINT_1278, increment: MOVIES_INCREMENT_3 },
+      { width: MOVIES_BREAKPOINT_1130, increment: MOVIES_INCREMENT_2 },
+      { width: MOVIES_BREAKPOINT_766, increment: MOVIES_INCREMENT_2 },
+      { width: MOVIES_BREAKPOINT_0, increment: MOVIES_INCREMENT_2 },
     ];
 
     const defaultIncrement = MOVIES_INCREMENT_2;
