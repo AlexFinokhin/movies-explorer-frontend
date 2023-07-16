@@ -31,6 +31,10 @@
   transition: opacity 0.3s ease-in-out;
 }
 
+.navigation__item.active {
+  color: #3ddc84;
+}
+
 .navigation__item::after {
   content: "";
   position: absolute;
@@ -58,6 +62,10 @@
   background-repeat: no-repeat;
   background-position: center right;
   transition: opacity 0.5s ease-in-out;
+}
+
+.navigation__profile.active {
+  background-image: url("../../images/profile-active.svg");
 }
 
 .navigation__profile:hover {

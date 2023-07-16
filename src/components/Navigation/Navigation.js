@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 function Navigation({ isNavigationOpen, handleBurgerClick }) {
@@ -13,24 +13,24 @@ function Navigation({ isNavigationOpen, handleBurgerClick }) {
       <ul className={`navigation__list ${isNavigationOpen ? "" : ""}`}>
         {isNavigationOpen && (
           <li>
-            <Link to="/" className="navigation__item">
+            <NavLink to="/" className="navigation__item">
               Главная
-            </Link>
+            </NavLink>
           </li>
         )}
         <li>
-          <Link to="/movies" className="navigation__item">
+          <NavLink to="/movies" className="navigation__item">
             Фильмы
-          </Link>
+          </NavLink>
         </li>
 
         <li>
-          <Link to="/saved-movies" className="navigation__item">
+          <NavLink to="/saved-movies" className="navigation__item">
             Сохраненные фильмы
-          </Link>
+          </NavLink>
         </li>
       </ul>
-      <Link to="/profile" className="navigation__profile" />
+      <NavLink to="/profile" className="navigation__profile" />
     </nav>
   );
 }
