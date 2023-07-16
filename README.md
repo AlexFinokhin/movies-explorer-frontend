@@ -1,6 +1,6 @@
 # Ссылка на пул реквест
 
-[level-3]: https://github.com/AlexFinokhin/movies-explorer-frontend/pull/2
+Пулреквест: https://github.com/AlexFinokhin/movies-explorer-frontend/pull/2
 
 # Дипломный проект movies-explorer-frontend
 Репозиторий для приложения проекта `Movies`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями.
