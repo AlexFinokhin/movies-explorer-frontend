@@ -37,7 +37,6 @@
   text-decoration: none;
   text-align: center;
   transition: opacity 0.3s ease-in-out;
-  /* ++++ */
 }
 
 .navtab__link:hover {

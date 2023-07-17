@@ -1,4 +1,4 @@
-import MoviesCard from "../MoviesCard/MoviesCard.js";
+import MoviesCard from "../MoviesCard/MoviesCard";
 
 const SavedMoviesCardSet = ({
   savedMovies,

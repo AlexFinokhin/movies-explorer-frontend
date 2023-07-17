@@ -3,7 +3,7 @@ import Logo from "../Logo/Logo";
 import { INPUT_ERROR_NAME } from "../../utils/constants";
 import useFormValidation from "../../hooks/useFormValidation";
 import { EMAIL_PATTERN } from "../../utils/constants";
-import authApi from "../../utils/authApi.js";
+import authApi from "../../utils/authApi";
 import failure from "../../images/failure.svg";
 
 const Register = ({

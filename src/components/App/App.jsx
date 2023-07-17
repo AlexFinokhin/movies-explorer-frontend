@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { CurrentUserContext } from "../../context/CurrentUserContext.js";
-import Main from "../Main/Main.js";
+import Main from "../Main/Main";
 import NotFound from "../NotFound/NotFound";
-import Login from "../Login/Login.js";
-import Register from "../Register/Register.js";
-import Profile from "../Profile/Profile.js";
-import Movies from "../Movies/Movies.js";
-import SavedMovies from "../SavedMovies/SavedMovies.js";
-import mainApi from "../../utils/mainApi.js";
-import authApi from "../../utils/authApi.js";
-import ProtectedRouteElement from "../ProtectedRoutes/ProtectedRouteElement.js";
-import AuthorizedRouteElement from "../ProtectedRoutes/AuthorizedRouteElement.js";
-import InfoTooltip from "../InfoTooltip/InfoTooltip.js";
+import Login from "../Login/Login";
+import Register from "../Register/Register";
+import Profile from "../Profile/Profile";
+import Movies from "../Movies/Movies";
+import SavedMovies from "../SavedMovies/SavedMovies";
+import mainApi from "../../utils/mainApi";
+import authApi from "../../utils/authApi";
+import ProtectedRouteElement from "../ProtectedRoutes/ProtectedRouteElement";
+import AuthorizedRouteElement from "../ProtectedRoutes/AuthorizedRouteElement";
+import InfoTooltip from "../InfoTooltip/InfoTooltip";
+
 import failure from "../../images/failure.svg";
 
 const App = () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Navigation from "../Navigation/Navigation.js";
+import Navigation from "../Navigation/Navigation";
 import Logo from "../Logo/Logo";
 
 const Header = ({ isLoggedIn }) => {

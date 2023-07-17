@@ -1,10 +1,10 @@
 import { useEffect, useState, useCallback } from "react";
-import Header from "../Header/Header.js";
-import SearchForm from "../Movies/SearchForm/SearchForm.js";
-import MoviesCardList from "../Movies/MoviesCardList/MoviesCardList.js";
-import Footer from "../Footer/Footer.js";
-import { MovieService } from "../../utils/moviesApi.js";
-import { filterByMovies, filterByDuration } from "../../hooks/useFiltres.js";
+import Header from "../Header/Header";
+import SearchForm from "./SearchForm/SearchForm";
+import MoviesCardList from "./MoviesCardList/MoviesCardList";
+import Footer from "../Footer/Footer";
+import { MovieService } from "../../utils/moviesApi";
+import { filterByMovies, filterByDuration } from "../../hooks/useFiltres";
 
 const Movies = ({ isLoggedIn, savedMovies, onDelete, onLike }) => {
   const [isLoading, setIsLoading] = useState(false);

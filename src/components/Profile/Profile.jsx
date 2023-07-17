@@ -1,6 +1,6 @@
 import { useContext, useState, useEffect } from "react";
 import { CurrentUserContext } from "../../context/CurrentUserContext.js";
-import Header from "../Header/Header";
+import Header from "../Header/Header.jsx";
 import useFormValidation from "../../hooks/useFormValidation.js";
 import { EMAIL_PATTERN } from "../../utils/constants.js";
 import mainApi from "../../utils/mainApi.js";
