@@ -1,0 +1,8 @@
+.logo__image {
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.logo__image:hover {
+  transform: rotate(180deg);
+}

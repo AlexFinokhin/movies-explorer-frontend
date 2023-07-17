@@ -1,0 +1,10 @@
+.main {
+  grid-column: 2/3;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .main {
+    grid-column: 1;
+  }
+}

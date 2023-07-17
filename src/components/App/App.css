@@ -1,0 +1,28 @@
+.page {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  color: #fff;
+  background: #202020;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.page__container {
+  display: grid;
+  min-height: 100%;
+  grid-template-columns: minmax(20px, 1fr) 1140px minmax(20px, 1fr);
+}
+
+@media (max-width: 1279px) {
+  .page__container {
+    grid-template-columns: 1fr;
+  }
+}

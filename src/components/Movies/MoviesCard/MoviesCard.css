@@ -1,0 +1,131 @@
+.card {
+  box-sizing: border-box;
+  background-color: #222;
+  border-radius: 6px;
+}
+
+.card__container {
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.card__title {
+  max-width: 210px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card__duration {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b8b8b;
+  text-align: right;
+}
+
+.card__image {
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.card__button {
+  display: block;
+  margin: 14px auto 14px auto;
+  padding: 0;
+  width: 100px;
+  height: 29px;
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  background-color: #313131;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+}
+
+.card__button:hover {
+  color: #8b8b8b;
+}
+
+.card__button-delete {
+  background-image: url("../../../images/delete.svg");
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__button-delete:hover {
+  opacity: 0.6;
+}
+
+.card__button-saved {
+  background-image: url("../../../images/saved.svg");
+  background-size: 10px 10px;
+  background-color: #ee3465;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__button-saved:hover {
+  opacity: 0.6;
+}
+
+.card__button-save {
+  background-image: url("../../../images/save6.svg");
+  background-size: 100px 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__button-save:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 1279px) {
+  .card__container {
+    padding: 14px;
+  }
+
+  .card__title {
+    max-width: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__container {
+    padding: 14px;
+  }
+
+  .card__title {
+    max-width: 140px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .card__image {
+    width: 100%;
+    max-height: 168px;
+    object-fit: contain;
+  }
+
+  .card__button {
+    margin: 13px auto;
+  }
+}
