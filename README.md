@@ -1,17 +1,17 @@
-# Дипломный проект movies-explorer-frontend
-Репозиторий для приложения проекта `Movies`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями.
+# **Дипломный проект**
+> frontend
 
-Адрес репозитория: https://github.com/AlexFinokhin/movies-explorer-frontend
+Веб-сервис по поиску фильмом, созданный в рамках сдачи диплома на курсе Веб-разработчик в [Яндекс Практикум](https://practicum.yandex.ru "сервис онлайн-образования"). Сервис позволяет искать фильмы, сохранять и удалять их в личном кабинете.
 
-## Ссылки на мой проект
+### **Структура проекта**
+***
+* [Movie (backend)](https://github.com/alexfinokhin/movies-explorer-api)
+* Movie (frontend) :star: *этот репозиторий*
 
-IP 51.250.84.63
+### **Технологии**
+***
+* React
 
-Frontend https://ryangosling.nomoredomains.rocks
-
-Backend https://api.ryangosling.nomoredomains.rocks
-
-
-### Ссылка на макет Figma
-
-https://disk.yandex.ru/d/tkMgssbr2I0DwQ
+***
+[Открыть сайт в браузере](https://ryangosling.nomoredomains.rocks/movies)\
+[Ссылка на макет в Figma](https://www.figma.com/file/p0zZefKh0m6zpRST4IGtsI/DiplomaFinokhin?type=design&node-id=891%3A3857&mode=design&t=iSDF2KcFx0WpogxE-1)
